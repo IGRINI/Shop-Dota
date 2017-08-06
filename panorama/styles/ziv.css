@@ -1,0 +1,361 @@
+.ZIVROOT
+{
+	width: 100%;
+	height: 100%;
+}
+#SHOPBUTTON
+{
+	background-color: #686868;
+	height: 5%;
+	width: 10%;
+	align: right bottom;
+	margin: 0% 3% 4% 0%;
+	border-radius: 10px;
+	border: 5px solid #383838;
+	transition-property: brightness;
+	transition-delay: 0.0s;
+	transition-duration: 0.4s;
+	transition-timing-function: ease-in-out;
+	visibility: collapse;
+}
+#SHOPLABEL
+{
+	horizontal-align: center;
+	vertical-align: center;
+	font-family: Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+	font-size:27px;
+	font-weight: bold;
+	color: #d0d0d0;
+    text-shadow: #000000 0px 0px 5px;
+}
+#SHOPBUTTON:hover
+{
+	brightness: 2;
+}
+#SHOP
+{
+	height: 50%;
+	width: 20%;
+	align: right center;
+	border-radius: 10px;
+	border: 0px solid #1c1c1c;
+	margin: 0% 1% 0% 0%;
+	transition-property: position;
+	transition-delay: 0.0s;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+	position: 21% 0px 0px;
+}
+#ITEMPANEL
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #25282acc ), color-stop( .5, #25282acc), to( #000000cc ) );
+	height: 90%;
+	width: 100%;
+	align: center bottom;
+	border-radius: 10px;
+	border: 5px solid #1c1c1c;
+	flow-children: down;
+	overflow: clip scroll;
+}
+#LABELPANEL
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #25282acc ), color-stop( .5, #25282acc), to( #000000cc ) );
+	height: 11%;
+	width: 100%;
+	align: center top;
+	border-radius: 10px;
+	border: 5px solid #1c1c1c;
+}
+#SHOPNAME
+{
+	horizontal-align: center;
+	vertical-align: center;
+	font-family: Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+	font-size:40px;
+	font-weight: bold;
+    text-shadow: #000000 0px 0px 5px;
+	color: #546492;
+}
+.itemline
+{
+	horizontal-align: center;
+	width: 90%;
+	height: 64px;
+	margin: 3px 0px 0% 0px;
+	flow-children: right;
+}
+.itempanel
+{
+	horizontal-align: left;
+	width: 32.9%;
+	height: 100%;
+	margin: 0px 0px 0% 2px;
+	border: 1px solid #000000;
+}
+.itemimage
+{
+	align: left bottom;
+	width: 60%;
+	height: 60%;
+}
+.goldlabel
+{
+	horizontal-align: left;
+	vertical-align: top;
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+	font-size:17px;
+	font-weight: bold;
+    text-shadow: #000000 5px 5px 4px;
+	color: #e3cf96;
+}
+.woodlabel
+{
+	horizontal-align: left;
+	vertical-align: top;
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+	font-size:17px;
+	font-weight: bold;
+	margin-left: 29%;
+    text-shadow: #000000 5px 5px 4px;
+	color: #27610d;
+}
+.itemineed1
+{
+	align: right center;
+	width: 24%;
+	height: 26%;
+	margin-bottom: 60%;
+}
+.itemineed2
+{
+	align: right center;
+	width: 24%;
+	height: 26%;
+}
+.itemineed3
+{
+	align: right center;
+	width: 24%;
+	height: 26%;
+	margin-top: 60%;
+}
+.itemineedl1
+{
+	horizontal-align: right;
+	vertical-align: center;
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+	font-size:15px;
+	font-weight: bold;
+	margin-right: 22%;
+    text-shadow: #000000 5px 5px 4px;
+	color: red;
+	margin-bottom: 60%;
+}
+.itemineedl2
+{
+	horizontal-align: right;
+	vertical-align: center;
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+	font-size:15px;
+	font-weight: bold;
+	margin-right: 22%;
+    text-shadow: #000000 5px 5px 4px;
+	color: red;
+}
+.itemineedl3
+{
+	horizontal-align: right;
+	vertical-align: center;
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+	font-size:15px;
+	font-weight: bold;
+	margin-right: 22%;
+    text-shadow: #000000 5px 5px 4px;
+	color: red;
+	margin-top: 60%;
+}
+#resources
+{
+	align: right top;
+	height: 10%;
+	width: 20%;
+	margin-top: 7%;
+}
+#gold
+{
+	horizontal-align: right;
+	vertical-align: top;
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+	font-size:40px;
+	margin-right: 5%;
+	font-weight: bold;
+    text-shadow: #000000 5px 5px 4px;
+	color: #e3cf96;
+}
+#wood
+{
+	horizontal-align: right;
+	margin-right: 5%;
+	vertical-align: top;
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+	font-size:40px;
+	font-weight: bold;
+    text-shadow: #000000 5px 5px 4px;
+	color: #27610d;
+	margin-top: 45%;
+}
+#equipment
+{
+	height: 50%;
+	width: 25%;
+	align: left center;
+	border-radius: 10px;
+	border: 0px solid #1c1c1c;
+	margin: 0% 0% 0% 0%;
+	transition-property: position;
+	transition-delay: 0.0s;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+	position: -22% 0px 0px;
+}
+#equipmentpanel
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #25282acc ), color-stop( .5, #25282acc), to( #000000cc ) );
+	height: 90%;
+	width: 75%;
+	align: center bottom;
+	border-radius: 10px;
+	border: 5px solid #1c1c1c;
+}
+#equipmentlabelpanel
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #25282acc ), color-stop( .5, #25282acc), to( #000000cc ) );
+	height: 11%;
+	width: 75%;
+	align: center top;
+	border-radius: 10px;
+	border: 5px solid #1c1c1c;
+}
+#equipmentlabel
+{
+	horizontal-align: center;
+	vertical-align: center;
+	font-family: Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+	font-size:40px;
+	font-weight: bold;
+    text-shadow: #000000 0px 0px 5px;
+	color: #546492;
+}
+#openbutton
+{
+	align: right center;
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	border: 5px solid #1c1c1c;
+	background-image: url("s2r://panorama/images/topbar/armory_icon_off_png.vtex");
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #25282acc ), color-stop( .5, #25282acc), to( #000000cc ) );
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	transition-property: brightness;
+	transition-delay: 0.0s;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+#openbutton:hover
+{
+	brightness: 10.0;
+}
+#head
+{
+	align: center top;
+	margin-top: 6%;
+	height: 14%;
+	width: 27%;
+	border: 5px solid #1c1c1c;
+}
+#chest
+{
+	align: center center;
+	margin-bottom: 27.8%;
+	height: 14%;
+	width: 27%;
+	border: 5px solid #1c1c1c;
+}
+#lefthand
+{
+	align: center center;
+	margin-left: 60%;
+	margin-bottom: 27.8%;
+	height: 14%;
+	width: 27%;
+	border: 5px solid #1c1c1c;
+}
+#righthand
+{
+	align: center center;
+	margin-right: 65%;
+	margin-bottom: 27.8%;
+	height: 14%;
+	width: 27%;
+	border: 5px solid #1c1c1c;
+}
+#pants
+{
+	align: center center;
+	margin-top: 3%;
+	height: 14%;
+	width: 27%;
+	border: 5px solid #1c1c1c;
+}
+#boots
+{
+	align: center center;
+	margin-top: 32.5%;
+	height: 14%;
+	width: 27%;
+	border: 5px solid #1c1c1c;
+}
+#leftring
+{
+	align: center center;
+	margin-left: 60%;
+	margin-top: 0%;
+	height: 8%;
+	width: 16%;
+	border: 5px solid #1c1c1c;
+}
+#rightring
+{
+	align: center center;
+	margin-right: 65%;
+	margin-top: 0%;
+	height: 8%;
+	width: 16%;
+	border: 5px solid #1c1c1c;
+}
+#necklace
+{
+	align: center top;
+	margin-top: 20%;
+	height: 8%;
+	width: 16%;
+	border: 5px solid #1c1c1c;
+}
+.item
+{
+	height: 100%;
+	width: 100%;
+	align: center center;
+}
+.howmany
+{
+	horizontal-align: left;
+	vertical-align: bottom;
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+	margin-left: 5%;
+	font-size:15px;
+	font-weight: bold;
+    text-shadow: #000000 5px 5px 4px;
+	color: #30ff00;
+}

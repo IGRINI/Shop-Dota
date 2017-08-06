@@ -1,0 +1,49 @@
+"itemscosts"
+{
+	"item_iron_pickaxe"
+	{
+		"wood"	"5"
+	}
+	"item_copper_chest"
+	{
+		"wood"	"35"
+	}
+	"item_iron_chest"
+	{
+		"gold"	"45"
+		"wood"	"35"
+	}
+	"item_iron_helmet"
+	{
+		"gold"	"10"
+	}
+	"item_iron_sword"		//название айтема
+	{
+		"gold"	"15"		//цена
+	}
+	"item_iron_axe"
+	{
+		"wood"	"5"
+	}
+	"item_wooden_shield"
+	{
+		"wood"	"40"
+	}
+	"item_copper_sword"
+	{
+		"wood"	"25"
+	}
+	"item_branch_15"
+	{
+		"gold"	"1"
+		"howmany"	"5"		//сколько штук покупается за раз
+	}
+	"item_lether_4"			//одни и те же айтемы, но за раз покупается разное кол-во, так же и цена может быть разной. Для этого и нужны айди в прошлом файле
+	{
+		"howmany"	"1"
+	}
+	"item_lether_5"
+	{
+		"howmany"	"3"
+	}
+}

@@ -1,0 +1,42 @@
+<root>
+	<styles>
+    	<include src="file://{resources}/styles/ziv.css" />
+    	<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/ziv.js" /> 
+	</scripts>
+	<Panel class="ZIVROOT" hittest="false">
+		<Panel id="SHOPBUTTON" onmouseactivate="OpenShop()" >              <!-- КНОПКА МАГАЗИНА -->
+			<Label id="SHOPLABEL" text="magaz" hittest="false"/>
+		</Panel>
+		<Panel id="SHOP" hittest="true">
+			<Panel id="ITEMPANEL" hittest="true">              <!-- ПАНЕЛЬКА АЙТЕМОВ -->
+			</Panel>
+			<Panel id="LABELPANEL" >              <!-- ПАНЕЛЬКА С НАЗВАНИЕМ МАГАЗИНА -->
+				<Label id="SHOPNAME" text="SHOPNAME" />
+			</Panel>
+		</Panel>
+		<Panel id="resources" >              <!-- ПАНЕЛЬКА ДЛЯ ОТОБРАЖЕНИЯ РЕСУРСОВ -->
+			<Label id="gold" text="100"/>
+			<Label id="wood" text="100"/>
+		</Panel>
+		<Panel id="equipment" >              <!-- НЕ НУЖНО -->
+			<Panel id="equipmentpanel" hittest="true">
+				<Panel id="head" />
+				<Panel id="chest" />
+				<Panel id="lefthand" />
+				<Panel id="righthand" />
+				<Panel id="pants" />
+				<Panel id="boots" />
+				<Panel id="leftring" />
+				<Panel id="rightring" />
+				<Panel id="necklace" />
+			</Panel>
+			<Panel id="equipmentlabelpanel" >
+				<Label id="equipmentlabel" text="#equipment" />
+			</Panel>
+			<Panel id="openbutton" onmouseactivate="OpenEquipment()" />
+		</Panel>
+	</Panel>
+</root>

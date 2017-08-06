@@ -1,0 +1,26 @@
+"items"
+{
+	"blacksmith" //Имя(из нпс_юнитс_кастом) юнита-магазина вокруг него будет раздаваться аура в 300 ренжи, зайдя в которую будет появляться кнопка магазина. Именно этого магазина.
+	{
+		"1"		"item_gold_ingot"   //Число - айди. Оно нужно будет в след файлах для одинаковых айтемов, но с разными ценами и кол-вом покупки
+		"2"		"item_copper_ingot"
+		"3"		"item_iron_ingot"
+		"4"		"item_lether"			//пример двух айтемов, но с разными костами и разными количествами покупок
+		"5"		"item_lether"
+		"6"		"item_copper_chest"
+		"7"		"item_iron_chest"
+		"8"		"item_iron_helmet"
+		"9"		"item_iron_sword"
+		"10"	"item_copper_sword"
+		"11"	"item_iron_axe"
+		"12"	"item_iron_pickaxe"
+		"13"	"item_wooden_shield"
+		"14"	"item_glasses"
+		"15"	"item_branch"
+	}
+
+	"another_unit_name" //другой магазин с другими предметами.
+	{
+		"1"		"item_ultimate_scepter"
+	}
+}
